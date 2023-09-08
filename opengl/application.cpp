@@ -155,6 +155,7 @@ int main()
     -0.5f,  0.5f,  0.5f,
     -0.5f,  0.5f, -0.5f,
     };
+    
     unsigned int lightVAO;
     unsigned int lightVBO;
     glGenVertexArrays(1, &lightVAO);
