@@ -17,12 +17,12 @@ You can get a Blinn-Phong Model Rendering for your 3d model to view it.
 
 **Rendering:**
 
-
+- Constant ambient light
 - Blinn-Phong with one DirLight and two PointLights
 
 **Model:**
 
-You can import any model formats supported by assimp
+You can import any format supported by assimp
 
 An example model of  Nashida(Genshin Impact) is already in `opengl` directory. You can customize it.
 
