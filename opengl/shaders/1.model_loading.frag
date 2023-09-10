@@ -1,4 +1,4 @@
-#version 460 core
+#version 420 core
 
 #define MAX_TEXTURE_NUM 8
 
@@ -47,7 +47,6 @@ struct SpotLight
 	float cutOff;
 	// 外圆锥余弦值
 	float outerCutOff;
-	
 	float constant;
 	float linear;
 	float quadratic;
@@ -64,7 +63,6 @@ uniform vec3 viewPos;
 uniform Material material;
 
 uniform DirLight dirLight;
-
 #define NR_POINT_LIGHTS 2
 uniform PointLight pointLights[NR_POINT_LIGHTS];
 uniform SpotLight spotLight;
@@ -82,8 +80,8 @@ void main()
 	// 定向光照
 	vec3 result = CalcDirLight(dirLight, norm, viewDir);
 	// 点光源
-	for(int i = 0; i < NR_POINT_LIGHTS; i++)
-		result += CalPointLight(pointLights[i], norm, FragPos, viewDir);
+	//for(int i = 0; i < NR_POINT_LIGHTS; i++)
+		//result += CalPointLight(pointLights[i], norm, FragPos, viewDir);
 	// 聚光
 	//result += CalSpotLight(spotLight, norm, FragPos, viewDir);
 

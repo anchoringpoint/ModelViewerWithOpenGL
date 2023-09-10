@@ -17,12 +17,12 @@ You can get a Blinn-Phong Model Rendering for your 3d model to view it.
 
 **Rendering:**
 
-
+- Constant ambient light
 - Blinn-Phong with one DirLight and two PointLights
 
 **Model:**
 
-You can import any model formats supported by assimp
+You can import any format supported by assimp
 
 An example model of  Nashida(Genshin Impact) is already in `opengl` directory. You can customize it.
 
@@ -35,4 +35,4 @@ An example model of  Nashida(Genshin Impact) is already in `opengl` directory. Y
 - The Asset Importer Library, <http://assimp.org/>
 - stb, single-file public domain (or MIT licensed) libraries for C/C++, <https://github.com/nothings/stb>
 - Dear ImGui, <https://github.com/ocornut/imgui>
-- ã€åŸç¥ã€‘çº³è¥¿å¦² , <https://www.aplaybox.com/details/model/3XMecJvZbStp>
+- ¡¾Ô­Éñ¡¿ÄÉÎ÷æ§ , <https://www.aplaybox.com/details/model/3XMecJvZbStp>
